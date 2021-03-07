@@ -12,7 +12,7 @@ const app = express()
 app.use(helmet())
 
 app.use(cors({
-  origin: 'https://questions.alschofield.vercel.app/'
+  origin: 'https://questions.alschofield.vercel.app'
 }))
 
 app.use(express.json())
